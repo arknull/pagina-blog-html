@@ -60,7 +60,7 @@ body {
   background-color: white;
 }
 
-.hero__description {
+.hero__content {
   width: 70%;
 }
 
@@ -80,13 +80,10 @@ body {
 
 .hero__image {
   width: 30%;
+  height: 260px;
   padding: var(--space);
   margin-left: var(--space2);
   border: 1px solid var(--text-color);
-}
-
-.hero__image img {
-  max-width: 100%;
   object-fit: cover;
 }
 
@@ -144,7 +141,7 @@ body {
   text-decoration: none;
 }
 
-/********** article card styles **********/
+/********** card styles **********/
 .card {
   display: flex;
   margin-top: var(--space2);
@@ -154,9 +151,10 @@ body {
 }
 
 .card__img {
+  width: 30%;
   height: 200px;
   margin-right: var(--space4);
-  overflow: hidden;
+  object-fit: cover;
 }
 
 .card__description {
